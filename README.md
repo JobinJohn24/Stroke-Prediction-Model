@@ -7,7 +7,7 @@ Stroke is the leading cause of mortaility and disbaility. early risk detection c
 Data Overview
 
 1.1 
-Dataset:Healthcare Dataset Stroke data(Kaggle)
+Dataset: 
 
 1.2 Target distribution
 * Stroke = 1 (positive): 10%
@@ -23,4 +23,5 @@ Dataset:Healthcare Dataset Stroke data(Kaggle)
 # Metholody
 2.1 Preprocessing
 * Numeric features: Missing values were imputed using the median, the features were standarized to make sure models such as Logistic Regression weren't numerical biased on scale differences ie glucose vs age
-* Categorical features
+* Categorical features: Missing values were imputed with the most common category, then turned into a one-hot encoding (y/n) so the model training and splitting would be efficent.
+* Imbalance handling: The dataset established a precedent of 1 in 10 patients actually having/had a stroke, the dataset was skewed to account for the "no stroke." To fix the issue, class weights (modifying the models loss function to account for a larger penalty comparitive to the errors on the non-stroke cases) and SMOTE (Synthetic Minority Over Sampling Technique - generating minority samples and interpolating between existing ones in feature space) techniques were used.
