@@ -13,4 +13,4 @@ Dataset:Healthcare Dataset Stroke data(Kaggle)
 * Stroke = 1 (positive): 10%
 * Stroke = 0 (negative): 90%
 
-(figures/target_distrbution.png)
+![Target Distribution](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/target_distribution.png)
