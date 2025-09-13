@@ -14,3 +14,11 @@ Dataset:Healthcare Dataset Stroke data(Kaggle)
 * Stroke = 0 (negative): 90%
 
 ![Target Distribution](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/target_distribution.png)
+
+1.3 Features 
+* Numeric features: age, average glucose level, BMI
+* Categorical features: gender, residence type, work type, marital status, smoking status
+* ![Histogram: average_glucose_level](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/histogram_avg_glucose_level.png)
+
+# Metholody
+2.1 Preprocessing
