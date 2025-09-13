@@ -22,3 +22,5 @@ Dataset:Healthcare Dataset Stroke data(Kaggle)
 
 # Metholody
 2.1 Preprocessing
+* Numeric features: Missing values were imputed using the median, the features were standarized to make sure models such as Logistic Regression weren't numerical biased on scale differences ie glucose vs age
+* Categorical features
