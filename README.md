@@ -83,7 +83,6 @@ Age, blood pressure, and blood glucose were found to be the most significant pre
 ---
 
 ## Conclusion
-
 This project demonstrates the development of a stroke prediction model using demographic, lifestyle, and clinical variables. Among all tested methods, the Random Forest classifier performed best, balancing recall and precision. 
 
 However, even with advanced models, some stroke cases remain difficult to identify, as highlighted by the confusion matrix (14 true positives vs. 37 false negatives). This underscores the challenges of predicting rare events in imbalanced datasets.
@@ -91,5 +90,3 @@ However, even with advanced models, some stroke cases remain difficult to identi
 Feature importance analysis confirmed that age, blood pressure, and blood glucose are critical risk factors for stroke, supporting clinical intuition.
 
 By combining performance metrics (ROC/PR AUC), interpretability (feature importance), and diagnostic plots (confusion matrix, calibration curves), this project provides a comprehensive approach for evaluating predictive models in healthcare.
-
----easures (ROC/PR AUC), interpretability measures (feature importance), and diagnostic plots (confusion matrix, calibration curves) provides a model utility assessment.
