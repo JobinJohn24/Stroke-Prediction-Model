@@ -21,14 +21,14 @@ Stroke is a leading cause of mortality and disability. Early risk detection enab
 - **Stroke = 1 (positive):** 10%
 - **Stroke = 0 (negative):** 90%
 
-![Target Distribution](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/target_distribution.png)
+![Target Distribution](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/target_distribution.png)
 
 ### 1.3 Features
 
 - **Numeric:** age, average glucose level, BMI
 - **Categorical:** gender, residence type, work type, marital status, smoking status
 
-![Histogram: average_glucose_level](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/histogram_avg_glucose_level.png)
+![Histogram: average_glucose_level](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/histogram_avg_glucose_level.png)
 
 ---
 
@@ -59,26 +59,26 @@ Primary evaluation metrics:
 - **PR AUC:** Focuses on precision and recall for the minority (stroke) class.
 - **Confusion Matrix:** Shows counts of true positives, true negatives, false positives, and false negatives.
 
-![ROC AUC: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/roc_curve_rf.png)
-![PR AUC : random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/pr_curve_rf.png)
+![ROC AUC: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/roc_curve_rf.png)
+![PR AUC : random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/pr_curve_rf.png)
 
 ### 3.2 Confusion Matrix
 
 The confusion matrix revealed 14 true positives and 37 false negatives for stroke cases.
 
-![Confusion matrix: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/confusion_matrix_rf.png)
+![Confusion matrix: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/confusion_matrix_rf.png)
 
 ### 3.3 Calibration
 
 The calibration curve (Brier score) indicated the model’s probabilities were slightly underconfident.
 
-![Calibration curve: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/calibration_logreg.png)
+![Calibration curve: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/calibration_logreg.png)
 
 ### 3.4 Feature Importance
 
 Age, blood pressure, and blood glucose were found to be the most significant predictors, aligning with established medical knowledge.
 
-![Feature importance: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/feature_importance_rf.png)
+![Feature importance: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/feature_importance_rf.png)
 
 ---
 
