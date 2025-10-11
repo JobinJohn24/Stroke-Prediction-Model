@@ -6,7 +6,7 @@ A machine learning project to predict stroke risk using clinical and lifestyle f
 
 ## Introduction
 
-Stroke is a leading cause of mortality and disability. Early risk detection enables preventive healthcare interventions and reduces long-term burdens. This project builds predictive models on a public dataset, aiming to identify individuals at risk of stroke using demographic, clinical, and lifestyle variables.
+Stroke is a leading cause of mortality and disability. Early risk detection enables preventive healthcare interventions and reduces long-term burdens. This project builds predictive models on a public dataset, aiming to identify individuals at risk of stroke using demographic, clinical, and lifestyle variables, and displays the critical risk factors that causes stokes in individuals using computational methods and data visualization tools.
 
 ---
 
@@ -87,6 +87,6 @@ This project demonstrates the development of a stroke prediction model using dem
 
 However, even with advanced models, some stroke cases remain difficult to identify, as highlighted by the confusion matrix (14 true positives vs. 37 false negatives). This underscores the challenges of predicting rare events in imbalanced datasets.
 
-Feature importance analysis confirmed that age, blood pressure, and blood glucose are critical risk factors for stroke, supporting clinical intuition.
+Feature importance analysis confirmed that age, blood pressure, and blood glucose levels are critical risk factors for stroke, supporting clinical intuition.
 
 By combining performance metrics (ROC/PR AUC), interpretability (feature importance), and diagnostic plots (confusion matrix, calibration curves), this project provides a comprehensive approach for evaluating predictive models in healthcare.
