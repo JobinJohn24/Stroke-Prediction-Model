@@ -1,9 +1,9 @@
-# Stroke Prediction Model
+# 🩻🩺 Stroke Prediction Model 🩻🩺
 
-## Abstract  
+## 📋 Abstract  
 This research implements machine learning methodologies to develop a predictive model for stroke risk assessment utilizing clinical and demographic features. The study addresses the critical healthcare challenge of early stroke detection through advanced statistical modeling and machine learning techniques.
 
-## Methodology  
+## 📝 Methodology  
 
 ### Data Characteristics  
 The dataset comprises heterogeneous patient records with continuous and categorical variables. The target variable exhibits class imbalance with a 1:10 ratio of stroke to non-stroke cases, as illustrated in Figure 1.
@@ -36,7 +36,7 @@ Multiple classification algorithms were evaluated:
 3. XGBoost with gradient boosting  
 4. Synthetic Minority Over-sampling Technique (SMOTE) combined with Logistic Regression
 
-## Results  
+## 📊 Results  
 
 ### Performance Evaluation  
 Models were assessed using multiple metrics, with the Random Forest classifier's performance illustrated in Figures 3 and 4.
@@ -65,7 +65,7 @@ Analysis revealed age, blood pressure, and glucose levels as primary predictive 
 ![Feature importance: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/feature_importance_rf.png)
 *Figure 7: Feature importance rankings from Random Forest classifier*
 
-## Conclusions  
+## 👨‍💻 Conclusions  
 The Random Forest classifier demonstrated superior performance in balancing sensitivity and specificity. However, the identification of certain stroke cases remains challenging, as evidenced by the confusion matrix metrics (14 true positives versus 37 false negatives). The study's findings contribute to the growing body of literature on machine learning applications in preventive healthcare.
 
 The research highlights the potential and limitations of machine learning in clinical prediction tasks, suggesting areas for future investigation in feature engineering and model optimization.
