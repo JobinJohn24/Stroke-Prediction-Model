@@ -1,5 +1,4 @@
-# 🩻🩺 Stroke Prediction Model 🩻🩺
-
+# 🩻🩺 Stroke Prediction Model 🩺🩻
 ## 📋 Abstract  
 This research implements machine learning methodologies to develop a predictive model for stroke risk assessment utilizing clinical and demographic features. The study addresses the critical healthcare challenge of early stroke detection through advanced statistical modeling and machine learning techniques.
 
