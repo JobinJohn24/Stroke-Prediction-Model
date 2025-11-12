@@ -64,7 +64,7 @@ Analysis revealed age, blood pressure, and glucose levels as primary predictive 
 ![Feature importance: random forest](https://github.com/JobinJohn24/Stroke-Prediction-Model/blob/main/images/feature_importance_rf.png)
 *Figure 7: Feature importance rankings from Random Forest classifier*
 
-## 👨‍💻 Conclusions  
-The Random Forest classifier demonstrated superior performance in balancing sensitivity and specificity. However, the identification of certain stroke cases remains challenging, as evidenced by the confusion matrix metrics (14 true positives versus 37 false negatives). The study's findings contribute to the growing body of literature on machine learning applications in preventive healthcare.
+## 👨‍💻 Conclusion  
+The Random Forest classifier demonstrated superior performance in balancing sensitivity and specificity. However, identification of certain stroke cases remains challenging, as evidenced by the confusion matrix metrics (14 true positives versus 37 false negatives). The study's findings contribute to the growing body of literature on machine learning applications in preventive healthcare.
 
 The research highlights the potential and limitations of machine learning in clinical prediction tasks, suggesting areas for future investigation in feature engineering and model optimization.
